@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Your Schedule Below"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="@color/crimson_red"
+                />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="10dp"
+                android:stretchColumns="2">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:text="Enter Your Desired Task"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:text="Estimated Time"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Your Desired Task"
+                        android:textColor="@color/grey"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="Time / Day"
+                        android:textColor="@color/grey"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Your Desired Task"
+                        android:textColor="@color/grey"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="Time / Day"
+                        android:textColor="@color/grey"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Your Desired Task"
+                        android:textColor="@color/grey"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="Time / Day"
+                        android:textColor="@color/grey"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/sch_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ADD NOW"
+                android:layout_marginTop="40dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:fontFamily="monospace"/>
+
+            <Button
+                android:id="@+id/sche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="HOME PAGE"
+                android:textSize="15sp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:fontFamily="monospace"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

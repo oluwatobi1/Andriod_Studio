@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.personal.its_soa.personal2.view_goals">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Goals Page"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="These Are Your Desired Your Desired Goals"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+            android:textSize="16sp"
+            android:textColor="@color/crimson_red"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:stretchColumns="2">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Your Desired Goal"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"/>
+
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Estimated Time"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:padding="5dp"
+                    android:text="Date Added"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/grey"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/grey"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/grey"
+                    android:textSize="14sp"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Would You Like To Add More Goals  ?"
+            android:layout_gravity="center"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/button_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD NOW"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:fontFamily="monospace"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/sche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="HOME PAGE"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:fontFamily="monospace"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_admin_data_24dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DATA SETTINGS!"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" User ID"
+            android:layout_marginTop="@dimen/mar30"
+            android:background="@color/transparent"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/grey"/>
+        <EditText
+            android:id="@+id/editname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="Full Name"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/grey"/>
+        <EditText
+            android:id="@+id/editemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="Email"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/grey"/>
+        <EditText
+            android:id="@+id/editpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="New Password"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/grey"/>
+        <EditText
+            android:id="@+id/editconfirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint=" Confirm Password"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/grey"/>
+
+
+
+
+        <Button
+            android:id="@+id/showdata"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Show Users Data"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/editdata"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Edit Users Data"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"/>
+            <Button
+                android:id="@+id/deletedata"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:text="Delete Users Data"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/round_button"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

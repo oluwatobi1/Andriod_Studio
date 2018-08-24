@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Financial Tracker"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="@dimen/mar30"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculate and Track Your Finances Now"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="29dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/crimson_red"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click On The Add Button To Add Expenses"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="10dp"
+                android:stretchColumns="2">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:text="Items Purchased"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"/>
+
+
+                    <TextView
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:text="Amount"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Item"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="N"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Item"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="N"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Item"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="N"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Item"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="N"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Item"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="N"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Item"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="N"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Item"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="N"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Item"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="N"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Item"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="N"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter Item"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="N"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/ad"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:text="+"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/crimson_red"
+                        android:layout_marginLeft="30dp"
+                        />
+
+                </LinearLayout>
+
+                <TableRow
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Total Amount Spent"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:hint="N"
+                        android:inputType="number"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/finpag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:text="ADD TO RECORDS"
+                android:layout_marginBottom="20dp"
+                />
+
+            <Button
+                android:id="@+id/homep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:text="HOME PAGE"
+                android:layout_marginBottom="30dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

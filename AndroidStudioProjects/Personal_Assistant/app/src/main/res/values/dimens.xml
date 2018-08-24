@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="twelve">12dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="fourfive">45dp</dimen>
+    <dimen name="mar30">30dp</dimen>
+</resources>
